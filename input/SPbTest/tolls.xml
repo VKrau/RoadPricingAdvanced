@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE roadpricing SYSTEM "roadpricingAdv.dtd">
+
+ <roadpricing type="cordon" name="equil-net cordon-toll">
+
+        <description>A simple cordon toll scheme for the equil-network.</description>
+
+    <links>
+        <link id="400111351_0">
+            <cost start_time="00:00" end_time="25:00" amount="27.64" mode="car"/>
+        </link>
+        <link id="400111351_0">
+            <cost start_time="00:00" end_time="25:00" amount="67.64" mode="truck"/>
+        </link>
+        <link id="461676671_0">
+            <cost start_time="00:00" end_time="25:00" amount="24.33" mode="car"/>
+        </link>
+		<link id="397223752_0">
+            <cost start_time="00:00" end_time="25:00" amount="28.64" mode="truck"/>
+        </link>
+		<link id="172999959_0">
+            <cost start_time="00:00" end_time="25:00" amount="31.39" mode="truck"/>
+            </link>
+		<link id="231671_0">
+            <cost start_time="00:00" end_time="25:00" amount="33.30" mode="truck"/>
+            </link>
+		<link id="232207286_0">
+            <cost start_time="00:00" end_time="25:00" amount="36.06" mode="car"/>
+            </link>
+		<link id="238735_0">
+            <cost start_time="00:00" end_time="25:00" amount="39.48" mode="car"/>
+            </link>
+		<link id="396293736_0">
+            <cost start_time="00:00" end_time="25:00" amount="46.53" mode="car"/>
+			</link>
+        <link id="46948905_0">
+            <cost start_time="00:00" end_time="25:00" amount="27.64" mode="car"/>
+            </link>
+		<link id="28935148_0">
+            <cost start_time="00:00" end_time="25:00" amount="25.99" mode="car"/>
+            </link>
+        <link id="28935149_0">
+            <cost start_time="00:00" end_time="25:00" amount="25.49" mode="truck"/>
+            </link>
+		<link id="189271976_0">
+            <cost start_time="00:00" end_time="25:00" amount="28.36" mode="truck"/>
+            </link>
+		<link id="130062824_1">
+            <cost start_time="00:00" end_time="25:00" amount="30.41" mode="truck"/>
+            </link>
+		<link id="231875_0">
+            <cost start_time="00:00" end_time="25:00" amount="32.66" mode="truck"/>
+            </link>
+		<link id="233273_0">
+            <cost start_time="00:00" end_time="25:00" amount="33.28" mode="car"/>
+            </link>
+		<link id="165031077_0">
+            <cost start_time="00:00" end_time="25:00" amount="39.05" mode="car"/>
+            </link>
+		<link id="146029084_0">
+            <cost start_time="00:00" end_time="25:00" amount="43.83" mode="car"/>
+        </link>
+    </links>
+
+</roadpricing>
